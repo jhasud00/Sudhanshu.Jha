@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanshu Jha - Data Analyst</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            margin-bottom: 50px;
+        }
+        .jumbotron {
+            background: url('path/to/your/image.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+            list-style: none;
+        }
+        .timeline:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: #e9ecef;
+            left: 50%;
+            margin-left: -2px;
+        }
+        .timeline-item {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .timeline-item:before, .timeline-item:after {
+            content: "";
+            display: table;
+        }
+        .timeline-item:after {
+            clear: both;
+        }
+        .timeline-item:before, .timeline-item:after {
+            content: " ";
+            display: table;
+        }
+        .timeline-item:after {
+            clear: both;
+        }
+        .timeline-item:before, .timeline-item:after {
+            content: " ";
+            display: table;
+        }
+        .timeline-item:after {
+            clear: both;
+        }
+        .timeline-item .timeline-panel {
+            position: relative;
+            width: 46%;
+            float: left;
+            left: 50%;
+            padding: 20px;
+            background: #f7f7f7;
+            border: 1px solid #d4d4d4;
+            border-radius: 4px;
+        }
+        .timeline-item .timeline-panel:before {
+            content: "";
+            position: absolute;
+            top: 26px;
+            right: -15px;
+            display: inline-block;
+            border-top: 15px solid transparent;
+            border-left: 15px solid #f7f7f7;
+            border-right: 0 solid #f7f7f7;
+            border-bottom: 15px solid transparent;
+        }
+        .timeline-item .timeline-panel .timeline-title {
+            margin-top: 0;
+            color: inherit;
+        }
+        .timeline-item .timeline-panel .timeline-body > p,
+        .timeline-item .timeline-panel .timeline-body > ul {
+            margin-bottom: 0;
+        }
+        .timeline-item:nth-child(even) .timeline-panel {
+            left: 0;
+        }
+        .timeline-item:nth-child(even) .timeline-panel:before {
+            content: "";
+            position: absolute;
+            top: 26px;
+            left: -15px;
+            display: inline-block;
+            border-top: 15px solid transparent;
+            border-right: 15px solid #f7f7f7;
+            border-left: 0 solid #f7f7f7;
+            border-bottom: 15px solid transparent;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Sudhanshu Jha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#timeline">Experience Timeline</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4">Hi! I'm Sudhanshu Jha</h1>
+            <p class="lead">Analyzing and visualizing data to make better and informed business decisions</p>
+            <a href="#about" class="btn btn-primary">About Me</a>
+        </div>
+    </header>
+
+    <section id="about" class="section bg-light text-center">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Experienced data professional with over four years of diverse experience in IT, customer, and client-facing roles across Logistics, Travel, Retail, and Workforce Development domains. Proficient in utilizing Power BI, SQL, and Python to tackle complex business challenges, developing and deploying over 150 data flows and 100+ dashboards.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section text-center">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Details of various projects worked on by Sudhanshu Jha.</p>
+            <ul>
+                <li>Project: Analytics team, Retail Client</li>
+                <li>Project: BD Team, Workforce Development Client</li>
+                <li>Project: ETL Developer and BI support, Logistics Client</li>
+                <li>Project: Site Reliability Engineering Team, Travel Client</li>
+                <li>Academic Project: Revealing Typical Vulnerabilities</li>
+                <li>Academic Project: System/Database Integration</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume" class="section bg-light text-center">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Email: jhasud00@gmail.com | <a href="https://www.linkedin.com/in/jhasud/">LinkedIn</a> | <a href="https://github.com/jhasud00">GitHub</a></p>
+            <p>Phone: +1 (443) 857-4630 | Location: Washington DC - Baltimore Area</p>
+            <p><strong>Skills:</strong></p>
+            <ul>
+                <li>Programming Languages: SQL(SSIS, SSRS, SSAS), Python, PL/SQL, BASH, Java, JavaScript</li>
+                <li>Frameworks: Pandas, Numpy, PySpark, Apache Hadoop, Hive, Pig, Kafka, HBase(No SQL)</li>
+                <li>Tools: Informatica PowerCenter, Microsoft PowerBI, Tableau, Looker, Jira, Confluence, MS Excel, ServiceNow, Docker, Kubernetes</li>
+                <li>Databases: Oracle 11g, MS SQL Server, MySQL, SQL-Lite, Cassandra</li>
+                <li>Platforms: AWS(Redshift, DynamoDB, S3, Glue), Microsoft Azure(Blob Storage, ADF), GCP(BigQuery, Dataprep)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section text-center">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via email or LinkedIn.</p>
+        </div>
+    </section>
+
+    <section id="timeline" class="section bg-light text-center">
+        <div class="container">
+            <h2>Experience Timeline</h2>
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <div class="timeline-panel">
+                        <h4 class="timeline-title">Data Analyst | Coders Data</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Jul 2023 - Present</small></p>
+                        <div class="timeline-body">
+                            <p>Developed interactive Power BI dashboards for retail clients, analyzing KPI data to drive strategic decision-making, resulting in a 20% increase in sales and a 15% improvement in customer retention.</p>
+                            <p>Improved retail client support operations by integrating AWS and JIRA systems with Python API to automate ticket creation, resulting in a 50% decrease in resolution time.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-panel">
+                        <h4 class="timeline-title">Business-Data Analyst | Kinetic Potential</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>
